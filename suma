@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="suma3.MainPage">
+    <VerticalStackLayout Padding="30">
+        <Label Text="Ingrese el primer número:" FontSize="18" />
+        <Entry x:Name="entradaNumero1" Keyboard="Numeric" Placeholder="Número 1" />
+        <Label Text="Ingrese el segundo número:" FontSize="18" />
+        <Entry x:Name="entradaNumero2" Keyboard="Numeric" Placeholder="Número 2" />
+        <Button Text="Sumar" Clicked="OnSumarClicked" Margin="0,20" />
+        <Label x:Name="resultadoLabel" FontSize="20" TextColor="Blue" />
+    </VerticalStackLayout>
+</ContentPage>
